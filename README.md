@@ -1,36 +1,69 @@
-# Untitled Project
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
+<h1 align="center">Project 👋</h1>
 
+<p align="center">
+  <strong></strong>
+</p>
 
-## 📋 Overview
+<p align="center">
+  <a href="https://github.com/antono4/app-klinik"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/app-klinik-blue?logo=github"></a>
+  <a href="https://antono4.github.io/app-klinik/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-9030-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-24 12:42:30 WIB-lightgrey">
+</p>
 
-This repository contains **9030 files** and is built with the following technologies:
+---
 
-Node.js, JavaScript, PHP
+## 📖 Tentang
 
-## 🚀 Quick Start
+Repository **`app-klinik`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/app-klinik/`](https://antono4.github.io/app-klinik/).
 
-```bash
-npm install
-npm run dev
-npm run build
+## 🗂️ Struktur Proyek
+
+```
+app-klinik/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
+## 🛠️ Teknologi
+
+Berdasarkan isi repository, proyek ini menggunakan:
+
+- `HTML`
+- `CSS`
+- `SCSS`
+- `JavaScript`
+- `PHP`
+- `Python`
+
+> Total **9030 file** terdeteksi di repository.
+
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
 ```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
 php -S localhost:8000
 ```
 
-## ✨ Features
+## 📬 Kontak
 
-- 📝 Auto-generated documentation
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/app-klinik/](https://antono4.github.io/app-klinik/)
 
-## 🛠️ Technologies
+## 📄 Lisensi
 
-Node.js, JavaScript, PHP
-
-## 📄 License
-
-MIT License
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
-*Last updated: 2026-08-24 12:28:05 WIB*
+
+<sub>README ini di-generate otomatis pada **2026-08-24 12:42:30 WIB** oleh GitHub Actions .</sub>
